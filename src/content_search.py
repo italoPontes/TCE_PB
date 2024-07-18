@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-input_file_name = '../data/TCE_PB/cnpj_ug_dados_gov.csv'
+input_file_name = '../data/cnpj_ug_dados_gov.csv'
 
 df = pd.read_csv(input_file_name)
 
